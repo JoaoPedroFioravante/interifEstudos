@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//consertar está com erros na solução
+//falha quando estão na mesma geração ou ancestrais diferentes mas na mesma familia
+//deve encontrar o ancestral em comum e dai continuar o codigo
 int main()
 {
     map<string, vector<string>> rel;
